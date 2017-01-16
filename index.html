@@ -7,10 +7,34 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
+  
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand">プロジェクト名</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">ひとつめ</a></li>
+        <li><a href="#2nd">ふたつめ</a></li>
+        <li><a href="#3rd">みっつめ</a></li>
+      </ul>
+    </div>
+  </nav>
+  
   <div class="container">
-    Hello!
+    <section>
+      <h1>ひとつめ</h1>
+      <p>ひとつめの文章を入れます。</p>
+      <h1 id="2nd">ふたつめ</h1>
+      <p>ふたつめの文章を入れます。</p>      
+      <h1 id="3rd">みっつめ</h1>
+      <p>みっつめの文章を入れます。</p>
+    </section>
   </div>
   
+  <button type="button" class="btn btn-default" data-toggle="tooltip" 
+          data-placement="left" title="Tooltip on left">Tooltip on left</button>
+
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
